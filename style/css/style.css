@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "Open Sans";
     font-weight: 700;
     src: url("/source/fonts/Open_Sans/static/OpenSans-Bold.ttf");
@@ -20,7 +20,11 @@
     font-family: "Roboto";
     font-weight: 400;
     src: url("/source/fonts/Roboto/static/Roboto-Regular.ttf");
-}
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --hover-orange: #ee753e;
@@ -57,14 +61,14 @@ body {
 .title {
     font-size: 9rem;
     font-weight: 700;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     text-wrap: nowrap;
 }
 
 .button {
     padding: calc(var(--size-base) * 2) calc(var(--size-base) * 8) calc(var(--size-base) * 3) calc(var(--size-base) * 8);
     font-size: 4.5rem;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-weight: 400;
     color: #fff;
     background-color: var(--normal-darkblue);
@@ -86,7 +90,7 @@ body {
     left: 0;
     padding: calc(var(--size-base) * 5) 0;
     background-color: #fff;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-weight: 400;
 }
 
@@ -155,14 +159,14 @@ body {
 .card__title {
     padding: 0 0 calc(var(--size-base) * 8) 0;
     font-weight: 400;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-size: 4.5rem;
 }
 
 .card__amount {
     display: flex;
     font-weight: 400;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-size: 4rem;
 }
 
@@ -216,13 +220,13 @@ body {
 .about__company {
     line-height: 150%;
     margin: 0 0 calc(var(--size-base) * 5) 0;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-weight: 700;
 }
 
 .about__advantage {
     margin: 0 0 calc(var(--size-base) * 5) 0;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-weight: 400;
 }
 
@@ -238,7 +242,7 @@ body {
 
 .about__text {
     margin: 0 0 calc(var(--size-base) * 8) 0;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-weight: 400;
     line-height: 150%;
 }
