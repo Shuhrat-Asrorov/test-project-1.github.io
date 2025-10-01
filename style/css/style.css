@@ -134,10 +134,6 @@ body {
     transition: 0.3s;
 }
 
-.catalog__card:hover {
-    border: 2px solid var(--hover-orange);
-}
-
 .catalog__card:hover button {
     background-color: var(--hover-orange);
 }
