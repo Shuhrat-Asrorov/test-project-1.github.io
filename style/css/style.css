@@ -1,26 +1,4 @@
-@font-face {
-    font-family: "Open Sans";
-    font-weight: 700;
-    src: url("/source/fonts/Open_Sans/static/OpenSans-Bold.ttf");
-}
-
-@font-face {
-    font-family: "Open Sans";
-    font-weight: 400;
-    src: url("/source/fonts/Open_Sans/static/OpenSans-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: 700;
-    src: url("/source/fonts/Roboto/static/Roboto-Bold.ttf");
-}
-
-@font-face {
-    font-family: "Roboto";
-    font-weight: 400;
-    src: url("/source/fonts/Roboto/static/Roboto-Regular.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --hover-orange: #ee753e;
