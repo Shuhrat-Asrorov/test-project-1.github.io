@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     color: var(--normal-darkblue);
 }
 
@@ -37,7 +37,7 @@ body {
     background-color: var(--normal-darkblue);
     text-wrap: nowrap;
     font-size: 18px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     color: #ffffff;
     font-weight: 400;
     line-height: 145%;
@@ -128,7 +128,7 @@ body {
 
 .navigation__link {
     font-size: 16px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     color: #272a33;
     font-weight: 400;
     line-height: 150%;
@@ -189,7 +189,7 @@ body {
     align-items: center;
     gap: 10px;
     font-size: 16px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     color: var(--normal-darkblue);
     font-weight: 400;
     line-height: 145%;
@@ -235,7 +235,7 @@ body {
 .about__description {
     flex: 1;
     font-size: 16px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     color: var(--normal-darkblue);
     font-weight: 400;
     line-height: 150%;
@@ -413,7 +413,7 @@ body {
         height: 100px;
         font-size: 16px;
         line-height: 150%;
-        font-family: "Open Sans";
+        font-family: "Open Sans", sans-serif;
     }
 
     .card__amount {
