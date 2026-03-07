@@ -26,11 +26,11 @@
     --hover-orange: #ee753e;
     --normal-darkblue: #272a33;
     --disable--grey: #d4d4d6;
-    --content-width-max: 1450px;
-    --content-width-1440: 1170px;
-    --content-width-1160: 778px;
-    --content-width-768: 586px;
-    --content-width-576: 370px;
+    --content-width-max: 1470px;
+    --content-width-1440: 1190px;
+    --content-width-1160: 798px;
+    --content-width-768: 606px;
+    --content-width-576: 390px;
 }
 
 body {
@@ -42,7 +42,7 @@ body {
     position: relative;
     max-width: var(--content-width-max);
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 0 15px;
 }
 
 .title {
@@ -77,7 +77,7 @@ body {
     translate: -50%;
     max-width: var(--content-width-max);
     width: calc(100% - 10px);
-    padding: 0 5px;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -321,6 +321,10 @@ body {
         max-width: var(--content-width-1160);
     }
 
+    .title {
+        font-size: 30px;
+    }
+
     .header {
         max-width: var(--content-width-1160);
     }
@@ -332,9 +336,9 @@ body {
     .navigation__wrapper {
         position: fixed;
         top: 80px;
-        right: -100vw;
+        right: -110vw;
         width: 100%;
-        height: calc(100vh - 80px);
+        height: 100vh;
         background: #fff;
         transition: right 0.3s ease;
     }
@@ -380,6 +384,7 @@ body {
     .about__pictures {
         max-height: 100%;
         margin: 0 0 30px;
+        gap: 30px;
     }
 }
 
@@ -387,10 +392,65 @@ body {
     .wrapper {
         max-width: var(--content-width-768);
     }
+
+    .title {
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .header {
+        max-width: var(--content-width-768);
+    }
+
+    .about__pictures {
+        gap: 25px;
+    }
 }
 
 @media (max-width: 586px) {
     .about__pictures {
         margin: 0 0 20px;
+    }
+
+    .catalog__items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .catalog__card {
+        flex-direction: column;
+        height: 100%;
+        margin: 0;
+    }
+
+    .card__img_wrapper {
+        max-width: 100%;
+    }
+
+    .card__description {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .card__title {
+        height: 100px;
+        font-size: 16px;
+        line-height: 150%;
+        font-family: "Open Sans";
+    }
+
+    .card__amount {
+        font-size: 14px;
+    }
+
+    .card__button {
+        font-size: 16px;
+    }
+
+    .about__pictures {
+        gap: 15px;
     }
 }
