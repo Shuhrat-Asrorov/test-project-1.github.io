@@ -147,8 +147,6 @@ body {
     margin: 0 0 4px;
 }
 
-.catalog__title {}
-
 .catalog__items {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -209,8 +207,6 @@ body {
 .about {
     margin: 0 0 50px;
 }
-
-.about__title {}
 
 .about__items {
     display: flex;
