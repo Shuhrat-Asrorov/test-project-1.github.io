@@ -18,21 +18,30 @@
                         class="logo"
                     />
                 </a>
-                <div>
-                    <input type="checkbox" id="burger" class="burger_input" />
-                    <label for="burger" class="burger">
-                        <span></span>
-                    </label>
-                    <nav class="navigation" id="navMenu">
-                        <a href="#" class="navigation__link">ГЛАВНАЯ</a>
-                        <a href="#" class="navigation__link">КАТАЛОГ</a>
-                        <a href="#" class="navigation__link">О КОМПАНИИ</a>
-                        <a href="#" class="navigation__link"
-                            >ОПЛАТА И ДОСТАВКА
-                        </a>
-                        <a href="#" class="navigation__link">КОНТАКТЫ</a>
-                    </nav>
-                </div>
+                <button class="burger" id="burger">
+                    <span class="burger__icon" id="burger__icon"></span>
+                </button>
+                <nav class="navigation__wrapper" id="navMenu">
+                    <ul class="navigation">
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">ГЛАВНАЯ</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">КАТАЛОГ</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">О КОМПАНИИ</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link"
+                                >ОПЛАТА И ДОСТАВКА
+                            </a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#" class="navigation__link">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
             </header>
             <main class="container">
                 <section class="catalog">
@@ -41,10 +50,11 @@
                     </h2>
                     <div class="catalog__items">
                         <div class="catalog__card">
-                            <div class="card__img">
+                            <div class="card__img_wrapper">
                                 <img
-                                    src="img/img_photo/catalog_1_4.jpg"
+                                    src="img/img_photo/catalog_1_4_x2.jpg"
                                     alt=""
+                                    class="card__img"
                                 />
                             </div>
                             <div class="card__description">
@@ -65,8 +75,12 @@
                             </div>
                         </div>
                         <div class="catalog__card">
-                            <div class="card__img">
-                                <img src="img/img_photo/catalog_2.jpg" alt="" />
+                            <div class="card__img_wrapper">
+                                <img
+                                    src="img/img_photo/catalog_2_x2.jpg"
+                                    alt=""
+                                    class="card__img"
+                                />
                             </div>
                             <div class="card__description">
                                 <h3 class="card__title">
@@ -86,8 +100,12 @@
                             </div>
                         </div>
                         <div class="catalog__card">
-                            <div class="card__img">
-                                <img src="img/img_photo/catalog_3.jpg" alt="" />
+                            <div class="card__img_wrapper">
+                                <img
+                                    src="img/img_photo/catalog_3_x2.jpg"
+                                    alt=""
+                                    class="card__img"
+                                />
                             </div>
                             <div class="card__description">
                                 <h3 class="card__title">
@@ -106,10 +124,11 @@
                             </div>
                         </div>
                         <div class="catalog__card">
-                            <div class="card__img">
+                            <div class="card__img_wrapper">
                                 <img
-                                    src="img/img_photo/catalog_1_4.jpg"
+                                    src="img/img_photo/catalog_1_4_x2.jpg"
                                     alt=""
+                                    class="card__img"
                                 />
                             </div>
                             <div class="card__description">
@@ -130,8 +149,12 @@
                             </div>
                         </div>
                         <div class="catalog__card">
-                            <div class="card__img">
-                                <img src="img/img_photo/catalog_5.jpg" alt="" />
+                            <div class="card__img_wrapper">
+                                <img
+                                    src="img/img_photo/catalog_5_x2.jpg"
+                                    alt=""
+                                    class="card__img"
+                                />
                             </div>
                             <div class="card__description">
                                 <h3 class="card__title">
@@ -150,8 +173,12 @@
                             </div>
                         </div>
                         <div class="catalog__card">
-                            <div class="card__img">
-                                <img src="img/img_photo/catalog_6.jpg" alt="" />
+                            <div class="card__img_wrapper">
+                                <img
+                                    src="img/img_photo/catalog_6_x2.jpg"
+                                    alt=""
+                                    class="card__img"
+                                />
                             </div>
                             <div class="card__description">
                                 <h3 class="card__title">
@@ -178,62 +205,68 @@
                 <section class="about">
                     <h2 class="about__title title">О КОМПАНИИ</h2>
                     <div class="about__items">
-                        <div class="about__img">
-                            <img
-                                src="img/img_photo/about_company_1.jpg"
-                                alt=""
-                            />
-                            <img
-                                src="img/img_photo/about_company_2.jpg"
-                                alt=""
-                            />
-                            <img
-                                src="img/img_photo/about_company_3.jpg"
-                                alt=""
-                            />
+                        <div class="about__pictures">
+                            <div class="about__img_wrapper">
+                                <img
+                                    src="img/img_photo/about_company_1_x2.jpg"
+                                    alt=""
+                                    class="about__img"
+                                />
+                            </div>
+                            <div class="about__img_wrapper">
+                                <img
+                                    src="img/img_photo/about_company_2_x2.jpg"
+                                    alt=""
+                                    class="about__img"
+                                />
+                            </div>
+                            <div class="about__img_wrapper">
+                                <img
+                                    src="img/img_photo/about_company_3_x2.jpg"
+                                    alt=""
+                                    class="about__img"
+                                />
+                            </div>
                         </div>
                         <div class="about__description">
                             <p class="about__company">
-                                Компания «SPARTSPRO» специализируется на
+                                Компания «SPARTSPRO» специализируется на
                                 поставках лифтового оборудования, комплектующих
                                 и запчастей для лифтов и эскалаторов ведущих
                                 мировых и российских производителей.
                             </p>
                             <div class="about__advantage">
                                 <div class="advantage__plus">
-                                    <div class="advantage__img">
-                                        <img
-                                            src="img/icons/tick_orange.svg"
-                                            alt=""
-                                        />
-                                    </div>
+                                    <img
+                                        src="img/icons/tick_orange.svg"
+                                        alt=""
+                                        class="advantage__img"
+                                    />
                                     <p class="advantage__text">
-                                        Гарантия качества – работаем только с
+                                        Гарантия качества – работаем только с
                                         проверенными производителями.
                                     </p>
                                 </div>
                                 <div class="advantage__plus">
-                                    <div class="advantage__img">
-                                        <img
-                                            src="img/icons/tick_orange.svg"
-                                            alt=""
-                                        />
-                                    </div>
+                                    <img
+                                        src="img/icons/tick_orange.svg"
+                                        alt=""
+                                        class="advantage__img"
+                                    />
                                     <p class="advantage__text">
-                                        Собственный склад – более 30 000
-                                        наименований в наличии для оперативных
+                                        Собственный склад – более 30 000
+                                        наименований в наличии для оперативных
                                         отгрузок.
                                     </p>
                                 </div>
                                 <div class="advantage__plus">
-                                    <div class="advantage__img">
-                                        <img
-                                            src="img/icons/tick_orange.svg"
-                                            alt=""
-                                        />
-                                    </div>
+                                    <img
+                                        src="img/icons/tick_orange.svg"
+                                        alt=""
+                                        class="advantage__img"
+                                    />
                                     <p class="advantage__text">
-                                        Соблюдение сроков – приоритет компании:
+                                        Соблюдение сроков – приоритет компании:
                                         быстрая обработка заказов и доставка без
                                         задержек.
                                     </p>
